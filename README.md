@@ -41,10 +41,10 @@ It will produce two files:
 ```
 python3 apriori.py [dataset] [min_sup] [min_conf] > [result_file]
 ```
-[dataset] : path of dataset
-[min_sup] : minimum support rate (0~1)
-[min_conf] : minimum confidence rate (0~1 and >= min_sup)
-[result_file] : path of file to save result
+[dataset] : path of dataset<br/>
+[min_sup] : minimum support rate (0.0-1.0)<br/>
+[min_conf] : minimum confidence rate (0.0-1.0 and >= min_sup)<br/>
+[result_file] : path of file to save result<br/>
 for example result in `result/`
 ```
 python3 apriori.py dataset/data.ntrans_5.tlen_10.nitems_0.02_pre 0.4 0.4 > result/result_apriori
@@ -55,10 +55,10 @@ python3 apriori.py dataset/data.ntrans_5.tlen_10.nitems_0.02_pre 0.4 0.4 > resul
 ```
 python3 fp_growth.py [dataset] [min_sup] [min_conf] > [result_file]
 ```
-[dataset] : path of dataset
-[min_sup] : minimum support rate (0~1)
-[min_conf] : minimum confidence rate (0~1 and >= min_sup)
-[result_file] : path of file to save result
+[dataset] : path of dataset<br/>
+[min_sup] : minimum support rate (0.0-1.0)<br/>
+[min_conf] : minimum confidence rate (0.0-1.0 and >= min_sup)<br/>
+[result_file] : path of file to save result<br/>
 for example result in `result/`
 ```
 python3 fp_growth.py dataset/data.ntrans_5.tlen_10.nitems_0.02_pre 0.4 0.4 > result/result_fp_growth
